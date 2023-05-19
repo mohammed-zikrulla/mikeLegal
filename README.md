@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# TodoMaker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The TodoMaker app is a simple web application that allows you to create, manage, and search todos. You can add new todos, mark them as completed, delete them, and search for specific todos based on their title or description.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Create new todos with a title and description.
+- Mark todos as completed or not completed.
+- Delete todos from the list.
+- Search for todos based on their title or description.
+- Filter todos based on their completion status.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- Redux: A predictable state container for JavaScript apps.
+- Axios: A promise-based HTTP client for making API requests.
+- react-icons: A library of icons for React applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/your-username/todo-maker.git`
+2. Navigate to the project directory: `cd todo-maker`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Open your web browser and go to `http://localhost:3000`.
+2. You will see the TodoMaker app with an input field for creating new todos.
+3. Enter a title and description for your todo and click the "Add Todo" button.
+4. The new todo will appear in the list below.
+5. To mark a todo as completed, click the checkbox next to it.
+6. To delete a todo, click the delete button (trash icon) next to it.
+7. Use the search input to search for todos based on their title or description.
+8. Use the filter select menu to filter todos based on their completion status.
+9. Explore the app and manage your todos efficiently!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you find any issues or want to enhance the TodoMaker app, feel free to create a pull request with your changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thank you. 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
