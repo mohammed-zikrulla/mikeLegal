@@ -1,11 +1,13 @@
 import "./App.css";
-import CatalogViewer from "./components/CatalogViewer/CatalogViewer";
+import React from "react";
+import TodoMaker from "./components/TodoMaker";
 
 function App() {
   return (
-    <div className="App">
-      <CatalogViewer />
+    <div>
+      <TodoMaker />
     </div>
   );
-  }
+}
+
 export default App;

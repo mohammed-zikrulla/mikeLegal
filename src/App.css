@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background: linear-gradient(136deg, #220e4d 2%, #6b068e 90.18%);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +36,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
