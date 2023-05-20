@@ -41,7 +41,6 @@ function TodoMaker() {
         {
           title: newTodo.title,
           completed: false,
-          description: newTodo.description,
         }
       );
       dispatch(addTodo(response.data));

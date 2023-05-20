@@ -1,6 +1,6 @@
 import React from "react";
-import "./SearchTodos.css"; // Import the CSS file
-import { IoMdSearch } from "react-icons/io"; // Import the search icon from react-icons library
+import "./SearchTodos.css"; 
+import { IoMdSearch } from "react-icons/io"; 
 import { useDispatch } from "react-redux";
 import { setSearchTerm, setFilter } from "../Store";
 

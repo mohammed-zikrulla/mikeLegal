@@ -1,43 +1,43 @@
 import React, { useState } from "react";
-import "./DisplayTodos.css"; // Import the CSS file
+import "./DisplayTodos.css"; 
 import {
   FaTrash,
   FaAngleLeft,
   FaAngleRight,
   FaAngleDoubleLeft,
   FaAngleDoubleRight,
-} from "react-icons/fa"; // Import icons from react-icons library
+} from "react-icons/fa"; 
 
 function DisplayTodos({ todos, deleteTodo }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const [todosPerPage] = useState(10); // Number of todos to display per page
+  const [todosPerPage] = useState(10); 
 
-  // Reverse the array of todos
+  
   const reversedTodos = todos.slice().reverse();
 
-  // Calculate the index of the last todo item on the current page
+
   const indexOfLastTodo = currentPage * todosPerPage;
-  // Calculate the index of the first todo item on the current page
+
   const indexOfFirstTodo = indexOfLastTodo - todosPerPage;
-  // Get the todos for the current page
+
   const currentTodos = reversedTodos.slice(indexOfFirstTodo, indexOfLastTodo);
 
-  // Function to handle going to the previous page
+
   const goToPreviousPage = () => {
     setCurrentPage((prevPage) => prevPage - 1);
   };
 
-  // Function to handle going to the next page
+
   const goToNextPage = () => {
     setCurrentPage((prevPage) => prevPage + 1);
   };
 
-  // Function to handle going to the first page
+
   const goToFirstPage = () => {
     setCurrentPage(1);
   };
 
-  // Function to handle going to the last page
+
   const goToLastPage = () => {
     setCurrentPage(Math.ceil(reversedTodos.length / todosPerPage));
   };

@@ -40,5 +40,4 @@ The TodoMaker app is a simple web application that allows you to create, manage,
 
 Contributions are welcome! If you find any issues or want to enhance the TodoMaker app, feel free to create a pull request with your changes.
 
-Thank you. 
-
+Thank you.
